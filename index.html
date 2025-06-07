@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>TITLE FOR BROWSER</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+
+    <div id="container">
+      <h1>RPG Creature Search App</h1>
+      <p>Search for Creature Name or ID:</p>
+      <div id="input-div">
+        <input id="search-input" required></input>
+        <button id="search-button">Search</button>
+      </div>
+
+      <div id="bio-div">
+        <div id="creature-header">
+          <p id="creature-name">Creature Name</p>
+          <p id="creature-id">##</p>
+        </div>
+        <div id="creature-phys">
+          <p>Weight: <span id="weight"></span></p>
+          <p>Height: <span id="height"></span></p>
+        </div>
+        <div id="creature-types">
+          <p>Types: <span id="types"></span></p>
+        </div>
+      </div>
+      
+      <div id="table-div">
+        <table>
+        <thead>
+          <tr>
+            <th>Base</th>
+            <th>Stats</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+           <td>HP</td>
+           <td id="hp"></td>
+          </tr>
+          <tr>
+            <td>Attack</td>
+            <td id="attack"></td>
+          </tr>
+          <tr>
+            <td>Defense</td>
+            <td id="defense"></td>
+          </tr>
+          <tr>
+            <td>Special Attack</td>
+            <td id="special-attack"></td>
+          </tr>
+          <tr>
+            <td>Special Defense</td>
+            <td id="special-defense"></td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td id="speed"></td>
+          </tr>
+
+        </tbody>
+        </table>
+
+      </div>
+      <p id="tag">created by Travis A. Brown for freeCodeCamp.org</p>
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
